@@ -2,8 +2,13 @@ import { useRef } from "react"
 import AnimatedTextLines from "../components/AnimatedTextLines";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { Canvas } from '@react-three/fiber';
+import { Float } from "@react-three/drei";
+import { useMediaQuery } from "react-responsive";
+import { Robo } from "../components/Robo";
 
 const Hero = () => {
+    const isMobile = useMediaQuery({maxWidth:853})
     const contextRef = useRef(null);
     const headerRef = useRef(null);
     const aboutText = `I help growing brands and startups gain an
@@ -27,10 +32,12 @@ const Hero = () => {
                 "<+0.2"
             );
         }, []);
+
+        
   return (
     <section
         id="home"
-        className="flex flex-col justify-end min-h-screen">
+        className="flex flex-col justify-end min-h-screen overflow-hidden">
             <div ref={contextRef}>
                 <div style={{clipPath: "polygon(0 0, 100% 0%, 100% 100%, 0% 100%)"}}>
                     <div
@@ -49,6 +56,27 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            <figure className="absolute inset-0 -z-50" style={{width: "100vw", height: "100vh"}}>
+  <Canvas
+    shadows
+    camera={{
+      position: isMobile ? [0, 5, 10] : [0, 3, 12],
+      fov: isMobile ? 35 : 40,
+      near: 0.1,
+      far: 50
+    }}
+  >
+    <ambientLight intensity={0.5} /> 
+    <Float speed={1}>
+      <Robo
+        scale={isMobile ? 0.7 : 1}
+        position={isMobile ? [0, -0.8, 0] : [0, -2, 0]}
+      />
+    </Float>
+    
+  </Canvas>
+</figure>
+
     </section>
   )
 }
