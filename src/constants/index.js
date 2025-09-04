@@ -1,5 +1,25 @@
 // index.js
 export const servicesData = [
+    {
+    title: "UI/UX Design Solutions",
+    description:
+      "Creating seamless digital experiences is more than just aesthetics. I craft intuitive interfaces, streamline user flows, and ensure delightful interactions across devices—making every app user-friendly and engaging.",
+    items: [
+  {
+    title: "User Research & Testing",
+    description: "(Personas, Surveys, Usability Testing)",
+  },
+  {
+    title: "Wireframing & Prototyping",
+    description: "(Figma, Interactive Prototypes)",
+  },
+  {
+    title: "Visual & Interaction Design",
+    description: "(Design Systems, Responsive Layouts, Microinteractions)",
+  },
+    ],
+  },
+  
   {
     title: "FullStack Development",
     description:
@@ -19,44 +39,7 @@ export const servicesData = [
       },
     ],
   },
-  {
-    title: "UI/UX Design Solutions",
-    description:
-      "Creating seamless digital experiences is more than just aesthetics. I craft intuitive interfaces, streamline user flows, and ensure delightful interactions across devices—making every app user-friendly and engaging.",
-    items: [
-  {
-    title: "User Research & Testing",
-    description: "(Personas, Surveys, Usability Testing)",
-  },
-  {
-    title: "Wireframing & Prototyping",
-    description: "(Figma, Interactive Prototypes)",
-  },
-  {
-    title: "Visual & Interaction Design",
-    description: "(Design Systems, Responsive Layouts, Microinteractions)",
-  },
-    ],
-  },
-  {
-    title: "WordPress Development & Optimization",
-    description:
-      "A slow or insecure website hurts credibility. I build secure, high-performance WordPress sites with optimized themes, plugins, and SEO-ready architecture—ensuring your site runs smoothly and ranks well.",
-    items: [
-  {
-    title: "Custom Theme & Plugin Development",
-    description: "(PHP, JavaScript, Elementor)",
-  },
-  {
-    title: "Security Hardening",
-    description: "(XSS/SQL Injection Protection, Login Security, Backups)",
-  },
-  {
-    title: "Performance & SEO Optimization",
-    description: "(Caching, Image Compression, Metadata, Structured Data)",
-  },
-    ],
-  },
+
   {
     title: "Web & Mobile Apps",
     description:
@@ -74,6 +57,26 @@ export const servicesData = [
         title: "E-Commerce",
         description: "(Checkout flows, Payment Gateways, Inventory APIs)",
       },
+    ],
+  },
+
+    {
+    title: "WordPress Development & Optimization",
+    description:
+      "A slow or insecure website hurts credibility. I build secure, high-performance WordPress sites with optimized themes, plugins, and SEO-ready architecture—ensuring your site runs smoothly and ranks well.",
+    items: [
+  {
+    title: "Custom Theme & Plugin Development",
+    description: "(PHP, JavaScript, Elementor)",
+  },
+  {
+    title: "Security Hardening",
+    description: "(XSS/SQL Injection Protection, Login Security, Backups)",
+  },
+  {
+    title: "Performance & SEO Optimization",
+    description: "(Caching, Image Compression, Metadata, Structured Data)",
+  },
     ],
   },
 ];
