@@ -6,7 +6,9 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Services = () => {
-    const text = `I build secure, high-performance full-stack apps with smoothUX to drive growth not headaches.`;
+    const text = `I build secure, high-performance full-stack apps
+    with smooth, intuitive UX
+    for real growth.`;
     const serviceRefs = useRef([]);
     const isDesktop = useMediaQuery({ minWidth: "48rem" }); //after 768 take as desktop mode
 

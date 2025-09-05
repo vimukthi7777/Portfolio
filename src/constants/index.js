@@ -1,85 +1,83 @@
 // index.js
 export const servicesData = [
-    {
-    title: "UI/UX Design Solutions",
+  {
+    title: "UI/UX Design",
     description:
-      "Creating seamless digital experiences is more than just aesthetics. I craft intuitive interfaces, streamline user flows, and ensure delightful interactions across devices—making every app user-friendly and engaging.",
-    items: [
-  {
-    title: "User Research & Testing",
-    description: "(Personas, Surveys, Usability Testing)",
-  },
-  {
-    title: "Wireframing & Prototyping",
-    description: "(Figma, Interactive Prototypes)",
-  },
-  {
-    title: "Visual & Interaction Design",
-    description: "(Design Systems, Responsive Layouts, Microinteractions)",
-  },
-    ],
-  },
-  
-  {
-    title: "FullStack Development",
-    description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I design intuitive and user-friendly interfaces that make apps and websites easy to use. I focus on clear user flows and attractive designs to provide a smooth experience.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST API, Microservices, Auth Systems)",
+        title: "User Research & Testing",
+        description: "(Personas, Surveys, Usability Testing)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Wireframing & Prototyping",
+        description: "(Figma, Interactive Prototypes)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Visual Design",
+        description: "(Layout, Colors, Typography, Microinteractions)",
       },
     ],
   },
-
   {
-    title: "Web & Mobile Apps",
+    title: "Fullstack Web Development",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "I build functional and responsive web apps using the MERN stack. My focus is on clean, maintainable code and smooth interactions.",
+    items: [
+      {
+        title: "Backend Development",
+        description: "(Node.js, Express, REST APIs, Firebase Auth)",
+      },
+      {
+        title: "Frontend Development",
+        description: "(React, Responsive UI, Interactive Components)",
+      },
+      {
+        title: "Database Management",
+        description: "(MongoDB, Firebase, Data Structuring, Queries)",
+      },
+    ],
+  },
+  {
+    title: "Mobile App Development",
+    description:
+      "I create cross-platform apps with Flutter and Firebase, focusing on responsive design and essential features for iOS and Android users.",
     items: [
       {
         title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        description: "(Single codebase for iOS and Android)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "App Features",
+        description: "(Authentication, Push Notifications, Simple UI)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Integration with Databases",
+        description: "(Firebase Firestore, Realtime Data)",
       },
     ],
   },
-
-    {
-    title: "WordPress Development & Optimization",
+  {
+    title: "WordPress Websites",
     description:
-      "A slow or insecure website hurts credibility. I build secure, high-performance WordPress sites with optimized themes, plugins, and SEO-ready architecture—ensuring your site runs smoothly and ranks well.",
+      "I can create and customize WordPress websites, set up themes, plugins, and basic SEO to make your site functional and presentable.",
     items: [
-  {
-    title: "Custom Theme & Plugin Development",
-    description: "(PHP, JavaScript, Elementor)",
-  },
-  {
-    title: "Security Hardening",
-    description: "(XSS/SQL Injection Protection, Login Security, Backups)",
-  },
-  {
-    title: "Performance & SEO Optimization",
-    description: "(Caching, Image Compression, Metadata, Structured Data)",
-  },
+      {
+        title: "Theme & Plugin Customization",
+        description: "(PHP, Elementor, JavaScript)",
+      },
+      {
+        title: "Website Setup & Maintenance",
+        description: "(Updates, Backups, Security Basics)",
+      },
+      {
+        title: "Basic SEO & Performance",
+        description: "(Site Speed, Meta Tags, Simple Optimization)",
+      },
     ],
   },
 ];
+
 export const projects = [
   {
     id: 1,
