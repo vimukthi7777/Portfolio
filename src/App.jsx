@@ -6,6 +6,8 @@ import Services from './sections/Services'
 import ReactLenis from 'lenis/react'
 import About from './sections/About'
 import Works from './sections/Works'
+import ContactSummary from './sections/ContactSummary'
+import Contact from './sections/Contact'
 
 const App = () => {
   return (
@@ -16,12 +18,8 @@ const App = () => {
       <Services />
       <About />
       <Works />
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
+      <ContactSummary />
+      <Contact />
     </ReactLenis>
   )
 }
