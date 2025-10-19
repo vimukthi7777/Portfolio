@@ -118,7 +118,9 @@ const Works = () => {
 
                     {/*title*/}
                     <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
+                        <a href={project.href}>
                         <h2 className="lg:text-[32px] text-[26px] leading-none">{project.name}</h2>
+                        </a>
                         <Icon icon="meteor-icons:arrow-up-right" className="md:size-6 size-5" />
                     </div>
                     
@@ -134,16 +136,19 @@ const Works = () => {
 
                     {/* mobile preview*/}
             <div className="relative flex items-center justify-center px-10 md:hidden h-[400px]">
+              
               <img
                 src={project.bgImage}
                 alt={`${project.name}-bg-image`}
                 className="object-cover w-full h-full rounded-md brightness-50"
               />
+              
               <img
                 src={project.image}
                 alt={`${project.name}-image`}
                 className="absolute bg-center px-14 rounded-xl"
               />
+             
             </div>
 
                 </div>
